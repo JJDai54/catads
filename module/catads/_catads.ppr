@@ -1,0 +1,419 @@
+[Config]
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.CompileOnBackground=0
+Compilator.ProgSaveAll=0
+Compilator.ProgRunSelection=0
+Compilator.LogType=0
+DefaultDir=J:\Xoops\_Xoops\Xoops 2.5.10\modules-Xoops\catads\catads_1_6_rc1_cpascalweb\catads
+DefaultCP=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+HTServer=localhost
+Extensions=*.*
+[Project tree]
+_catads
+	+catads
+		+admin
+			admin\about.php
+			admin\about-old.php
+			admin\admin_footer.php
+			admin\admin_header.php
+			admin\admin_header-new.php
+			admin\ads.php
+			admin\adsmod.php
+			admin\category.php
+			admin\functions.php
+			admin\import.php
+			admin\index.php
+			admin\index-new.php
+			admin\index-old.php
+			admin\menu.php
+			admin\options.php
+			admin\permissions.php
+			admin\purge.php
+		-blocks
+			blocks\catads_add.php
+			blocks\catads_myads.php
+			blocks\catads_new.php
+			blocks\catads_search.php
+			blocks\index.html
+		+class
+			class\ads.php
+			class\cat.php
+			class\catadsformbreak.php
+			class\formSelectDepartements.php
+			class\formSelectRegions.php
+			class\index.html
+			class\menu.php
+			class\option.php
+			class\permissions.php
+		+css
+			css\highslide.css
+			css\highslide-ie6.css
+			css\style.css
+			css\stylesheet.css
+			css\stylesheet0.css
+		+docs
+			docs\aidemicropaiement1.PNG
+			docs\changelog.txt
+			docs\doc_id.png
+			docs\site_id.png
+		-images
+			-deco
+				images\deco\about.png
+				images\deco\alerteabus.png
+				images\deco\annonces.png
+				images\deco\attention.png
+				images\deco\delete.png
+				images\deco\edit.gif
+				images\deco\edit.png
+				images\deco\explications.png
+				images\deco\forum.png
+				images\deco\gomodule.png
+				images\deco\index.html
+				images\deco\index.png
+				images\deco\modif.gif
+				images\deco\off.png
+				images\deco\on.png
+				images\deco\options.png
+				images\deco\permissions.png
+				images\deco\plus.png
+				images\deco\pref.png
+				images\deco\print.gif
+				images\deco\purge.png
+				images\deco\update.png
+			-default
+				images\default\bouton.psd
+				images\default\bouton_d.png
+				images\default\bouton_g.png
+				images\default\close.png
+				images\default\loader.png
+				images\default\ombre_b.png
+				images\default\ombre_bd.png
+				images\default\ombre_bg.png
+				images\default\ombre_d.png
+				images\default\ombre_g.png
+				images\default\ombre_h.png
+				images\default\ombre_hd.png
+				images\default\ombre_hg.png
+				images\default\theme.css
+				images\default\title.png
+				images\default\title_r.png
+			-graphics
+				-outlines
+					images\graphics\outlines\beveled.png
+					images\graphics\outlines\drop-shadow.png
+					images\graphics\outlines\glossy-dark.png
+					images\graphics\outlines\outer-glow.png
+					images\graphics\outlines\Outlines.psd
+					images\graphics\outlines\rounded-black.png
+					images\graphics\outlines\rounded-white.png
+				images\graphics\close.png
+				images\graphics\closeX.png
+				images\graphics\controlbar2.gif
+				images\graphics\controlbar3.gif
+				images\graphics\controlbar4.gif
+				images\graphics\controlbar4-hover.gif
+				images\graphics\controlbar-black-border.gif
+				images\graphics\controlbar-text-buttons.png
+				images\graphics\controlbar-white.gif
+				images\graphics\controlbar-white-small.gif
+				images\graphics\fullexpand.gif
+				images\graphics\geckodimmer.png
+				images\graphics\icon.gif
+				images\graphics\loader.gif
+				images\graphics\loader.white.gif
+				images\graphics\resize.gif
+				images\graphics\scrollarrows.png
+				images\graphics\zoomin.cur
+				images\graphics\zoomout.cur
+			-icon
+				-32
+					images\icon\32\32 - Raccourci.lnk
+					images\icon\32\about.png
+					images\icon\32\accueil.png
+					images\icon\32\annonces.png
+					images\icon\32\categories.png
+					images\icon\32\forum.png
+					images\icon\32\gomodule.png
+					images\icon\32\options.png
+					images\icon\32\permissions.png
+					images\icon\32\pref.png
+					images\icon\32\purge.png
+					images\icon\32\sablier.png
+					images\icon\32\update.png
+				-48
+					images\icon\48\accueil.png
+					images\icon\48\annonces.png
+					images\icon\48\categories.png
+					images\icon\48\forum.png
+					images\icon\48\gomodule.png
+					images\icon\48\options.png
+					images\icon\48\permissions.png
+					images\icon\48\pref.png
+					images\icon\48\purge.png
+					images\icon\48\sablier.png
+					images\icon\48\update.png
+				images\icon\adresse.png
+				images\icon\alerteabus.png
+				images\icon\annonceur.png
+				images\icon\arrow.gif
+				images\icon\arrow2.png
+				images\icon\attention.png
+				images\icon\attention_pf.gif
+				images\icon\attention_pf.png
+				images\icon\avertissement.gif
+				images\icon\avertissement.png
+				images\icon\contacter.png
+				images\icon\delete.png
+				images\icon\edit.gif
+				images\icon\edit_mini.gif
+				images\icon\email_deco.png
+				images\icon\email_deco_rentabiliweb.png
+				images\icon\enligne.png
+				images\icon\envoi_ami.png
+				images\icon\friend.gif
+				images\icon\horsligne.png
+				images\icon\imprimer.png
+				images\icon\index.html
+				images\icon\IP.png
+				images\icon\modifier.png
+				images\icon\mp_deco.png
+				images\icon\mp_deco2.png
+				images\icon\ok.png
+				images\icon\pasphotos.png
+				images\icon\photo.gif
+				images\icon\print.gif
+				images\icon\programmer.png
+				images\icon\publier.png
+				images\icon\reprendre.png
+				images\icon\rss.gif
+				images\icon\separateur.gif
+				images\icon\supprimer.png
+				images\icon\suspect.png
+				images\icon\suspendre.png
+				images\icon\suspendreproprio.png
+				images\icon\suspendu.png
+				images\icon\suspenduannonceur.png
+				images\icon\tel_fixe.png
+				images\icon\tel_portable.png
+				images\icon\trier_bas.png
+				images\icon\trier_haut.png
+				images\icon\videos.png
+				images\icon\viewmag.png
+			-uploads
+				-catads
+					-images
+						-annonces
+							-original
+								images\uploads\catads\images\annonces\original\index.html
+								images\uploads\catads\images\annonces\original\pasphotos.png
+							-thumb
+								images\uploads\catads\images\annonces\thumb\index.html
+								images\uploads\catads\images\annonces\thumb\pasphotos.png
+							images\uploads\catads\images\annonces\index.html
+						-categories
+							images\uploads\catads\images\categories\animaux.png
+							images\uploads\catads\images\categories\blank.gif
+							images\uploads\catads\images\categories\bricolages.png
+							images\uploads\catads\images\categories\electromenagers.png
+							images\uploads\catads\images\categories\immobiliers.png
+							images\uploads\catads\images\categories\index.html
+							images\uploads\catads\images\categories\informatiques.png
+							images\uploads\catads\images\categories\interieurs.png
+							images\uploads\catads\images\categories\jeux.png
+							images\uploads\catads\images\categories\numeriques.png
+							images\uploads\catads\images\categories\sports.png
+							images\uploads\catads\images\categories\telephonie.png
+							images\uploads\catads\images\categories\vehicules.png
+							images\uploads\catads\images\categories\vetements.png
+						images\uploads\catads\images\index.html
+					images\uploads\catads\index.html
+			images\annonce_contact.png
+			images\annonces.png
+			images\bg_button.png
+			images\blank.gif
+			images\espiree1.png
+			images\espiree2.png
+			images\index.html
+			images\magminus.gif
+			images\magplus.gif
+			images\nav.png
+			images\navboite3.png
+		+include
+			include\cp_functions.php
+			include\form_contact.inc.php
+			include\form_modif_ads.php
+			include\form_modif_ads_admin.php
+			include\form_submit.php
+			include\functions.php
+			include\index.html
+			include\install_function.php
+			include\notification.inc.php
+			include\search.inc.php
+			include\update_function.php
+		-js
+			js\AC_RunActiveContent.js
+			js\highslide.js
+			js\infobulle.js
+			js\jquery.js
+			js\slider.js
+			js\swfobject.js
+			js\zoombox.js
+		+language
+			+english
+				-mail_template
+					language\english\mail_template\ads_approve_notify.tpl
+					language\english\mail_template\ads_edit_notify.tpl
+					language\english\mail_template\category_adssubmit_notify.tpl
+					language\english\mail_template\category_newads_notify.tpl
+					language\english\mail_template\global_adsedit_notify.tpl
+					language\english\mail_template\global_adssubmit_notify.tpl
+					language\english\mail_template\global_newads_notify.tpl
+				language\english\admin.php
+				language\english\blocks.php
+				language\english\index.html
+				language\english\main.php
+				language\english\modinfo.php
+			+french
+				-mail_template
+					language\french\mail_template\ads_approve_notify.tpl
+					language\french\mail_template\ads_edit_notify.tpl
+					language\french\mail_template\category_adssubmit_notify.tpl
+					language\french\mail_template\category_newads_notify.tpl
+					language\french\mail_template\global_adsedit_notify.tpl
+					language\french\mail_template\global_adssubmit_notify.tpl
+					language\french\mail_template\global_newads_notify.tpl
+				language\french\admin.php
+				language\french\blocks.php
+				language\french\index.html
+				language\french\main.php
+				language\french\modinfo.php
+			language\index.html
+		-php_xml
+			php_xml\settings.php
+			php_xml\xml_datagrid.php
+			php_xml\xml_datagrid_reg.php
+			php_xml\xml_datagrid_ville.php
+			php_xml\xml_datas.php
+			php_xml\xml_datas_id.php
+			php_xml\xml_datas_id_old.php
+			php_xml\xml_options.php
+		+sql
+			sql\index.html
+			sql\mysql.sql
+		-swf
+			swf\france_map_3.0.swf
+		+templates
+			-blocks
+				templates\blocks\catads_block_add.tpl
+				templates\blocks\catads_block_myads.tpl
+				templates\blocks\catads_block_new.tpl
+				templates\blocks\catads_block_search.tpl
+				templates\blocks\index.html
+			templates\catads_addsubcat.tpl
+			templates\catads_adsform.tpl
+			templates\catads_adsform2.tpl
+			templates\catads_adslist.tpl
+			templates\catads_adssublist.tpl
+			templates\catads_cat.tpl
+			templates\catads_index.tpl
+			templates\catads_item.tpl
+			templates\catads_soumettre.tpl
+			templates\catads_subcat.tpl
+			templates\index.html
+			templates\catads_edit.tpl
+		.htaccess
+		_catads.ppr
+		adsedit.php
+		adsitem.php
+		adslist.php
+		adsuserlist.php
+		backend.php
+		comment_delete.php
+		comment_edit.php
+		comment_new.php
+		comment_post.php
+		comment_reply.php
+		contact.php
+		display_image.php
+		formulairecontact.php
+		header.php
+		index.php
+		list.tag.php
+		map.php
+		notification_update.php
+		pageerreur.php
+		print.php
+		renew.php
+		rentabiliwebcontact.php
+		search.php
+		seo.php
+		seo_url.php
+		submit.php
+		view.tag.php
+		xoops_version.php
+[Open project files]
+0=templates\catads_index.tpl
+1=css\style.css
+2=templates\catads_item.tpl
+3=docs\changelog.txt
+4=adslist.php
+5=adsitem.php
+6=class\cat.php
+7=header.php
+8=templates\catads_adslist.tpl
+9=templates\catads_edit.tpl
+10=templates\catads_soumettre.tpl
+11=templates\catads_adsform.tpl
+12=adsedit.php
+13=templates\catads_adsform2.tpl
+[Selected Project Files]
+Main=
+Selected=docs\changelog.txt
+[templates\catads_index.tpl]
+TopLine=270
+Caret=1,289
+[css\style.css]
+TopLine=1
+Caret=11,20
+[templates\catads_item.tpl]
+TopLine=31
+Caret=56,56
+[docs\changelog.txt]
+TopLine=1
+Caret=5,26
+[adslist.php]
+TopLine=149
+Caret=11,167
+[adsitem.php]
+TopLine=692
+Caret=161,751
+[class\cat.php]
+TopLine=263
+Caret=28,286
+[header.php]
+TopLine=1
+Caret=1,22
+[templates\catads_adslist.tpl]
+TopLine=1
+Caret=1,6
+[templates\catads_edit.tpl]
+TopLine=5
+Caret=1,5
+[templates\catads_soumettre.tpl]
+TopLine=25
+Caret=1,1
+[templates\catads_adsform.tpl]
+TopLine=1
+Caret=22,12
+[adsedit.php]
+TopLine=1
+Caret=1,4
+[templates\catads_adsform2.tpl]
+TopLine=40
+Caret=6,47

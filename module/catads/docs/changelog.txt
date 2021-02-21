@@ -1,0 +1,26 @@
+<h5>catads version 1.7 rc1  [NOT RELEASED]</h5>  Dev: Xoops 2.5.9, PHP 7.3.x
+<hr>
+  (JJDai : JJDelalandre@orange.fr)
+ - Reprise du module
+ - Mise à niveau pour xoops 2.5.10
+ - Remplacement du nom du constructeur des classes par __construct
+ - modification de l'appel à la classe parent par "parent::__construct()"
+ - Suppression des appels statics aux classes, remplacer par une instance de la classe 
+ - remplacement des templates du module *.html en *.tpl   
+ - suppression de la l'appel à la fonction "loadModuleAdminMenu", 
+   remplacé par "$modversion['system_menu'] = 1;" dans "xoops_version.php"
+ - Ajout de class background dans le fichier "style.css" 
+   permet d'avoir un fond bien déléimité pour la zone d'affichage
+   #catads_main, #catads_cat, #catads_notification, #catads_annonce, ...
+ - Transfert des includes et déclarations globales du Front Office dans "header.php"
+ - Transfert des includes et déclarations globales du Front back office dans "admin_header.php"
+ - Ajout dans xoops_version.php de l'option 'displayTemplateName' 
+   permet d'afficher le nom des templates. A désactiver en production.
+ 
+ - renommage de variables, fonctions et fichiers en vu d'harmoniser le code
+    variable $ts en $myts
+    classe AdsCategory en catadsCategory
+    dossier "doc" en "docs"
+    
+ - Divers corrections et adaptations pour xoops 2.5.10
+    
